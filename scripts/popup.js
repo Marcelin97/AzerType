@@ -48,12 +48,6 @@ function initAddEventListenerPopup() {
             // Alors on cache la popup
             cacherPopup()
         }
-        let btnEnvoyerMail = document.querySelector("#btnEnvoyerMail");
-        btnEnvoyerMail.addEventListener("click", (event)=>{
-            event.preventDefault();
-            const name = document.querySelector('#nom');
-            console.log(name.value);
-        })
 
     })
 }
